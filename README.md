@@ -75,9 +75,9 @@ Payload format:
 ```json
 {
     "id": 1,
-    "from": "Ankit",
-    "to": "Sachin",
-    "amount": 30.0
+    "lender": "Muskan",
+    "borrower": "Simran",
+    "amount": 1000
 }
 ```
 
