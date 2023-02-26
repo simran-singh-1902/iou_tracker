@@ -6,9 +6,11 @@ The IOU Tracker is a simple web application that allows users to track how much 
 Features
 The IOU Tracker includes the following features:
 
-Users can be created and deleted.
-IOUs can be created and deleted between users.
+Users can be created and listed down.
+IOUs can be created.
 The application calculates the balance for each user, which is the difference between the amount owed to them and the amount they owe to others.
+
+
 Installation
 To install and run the IOU Tracker, follow these steps:
 
