@@ -57,6 +57,8 @@ def update_user(request):
 
     from_user.owes[to_user.name] = from_user.owes.get(to_user.name, 0) + amount
     to_user.owed_by[from_user.name] = to_user.owed_by.get(from_user.name, 0) + amount
+    from_user.update_balance()
+    to_user.update_balance()
     from_user.save()
     to_user.save()
     return Response({"detail": "User updated successfully"}, status=200)
